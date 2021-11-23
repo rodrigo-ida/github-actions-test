@@ -3,7 +3,7 @@ name: says hello
 on: [push]
 
 jobs:
-  cypress-run:
+  says hello:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

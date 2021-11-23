@@ -1,4 +1,4 @@
-name: Laravel
+name: cypress test
 
 on: [push]
 
@@ -12,9 +12,12 @@ jobs:
       with:
         php-version: '8.0'
     - uses: actions/checkout@v2
-    - name: Copy .env
-      run: php -r "file_exists('.env') || copy('.env.example', '.env');"
-   
+
+    - name: setup node
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+        
     - name: Cypress run
       uses: cypress-io/github-action@v2
       with:
