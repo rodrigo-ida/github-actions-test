@@ -1,0 +1,6 @@
+{
+    "baseUrl": "http://localhost/github-actions-cypress",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080
+}
+

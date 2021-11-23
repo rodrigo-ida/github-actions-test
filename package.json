@@ -1,0 +1,25 @@
+{
+  "name": "github-actions-cypress",
+  "version": "1.0.0",
+  "description": "sup",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^8.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo-ida/github-actions-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigo-ida/github-actions-test/issues"
+  },
+  "homepage": "https://github.com/rodrigo-ida/github-actions-test#readme"
+}
