@@ -17,8 +17,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12
-        
+
     - name: Cypress run
       uses: cypress-io/github-action@v2
       with:
-        cypress:open: npm run cypress:open
+        start: npm run cypress:open
