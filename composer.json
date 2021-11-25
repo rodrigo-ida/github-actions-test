@@ -1,6 +1,7 @@
 {
     "name": "rodri/github-actions-cypress",
     "description": "coisa",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "Rodri\\GithubActionsCypress\\": "src/"
@@ -12,5 +13,7 @@
             "email": "rodrigoida1@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "7.2.*"
+    }
 }
