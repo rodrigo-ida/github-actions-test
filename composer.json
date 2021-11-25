@@ -1,5 +1,6 @@
 {
     "name": "rodri/github-actions-cypress",
+    "description": "coisa",
     "autoload": {
         "psr-4": {
             "Rodri\\GithubActionsCypress\\": "src/"
