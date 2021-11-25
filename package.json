@@ -10,8 +10,7 @@
     "cypress": "^8.7.0"
   },
   "scripts": {
-    "server": " http-server",
-    "coisa": "./index.php",
+    "server": "http-server",
     "cypress:open": "cypress open",
     "cypress": "cypress run"
   },
