@@ -31,6 +31,6 @@ jobs:
     - name: Cypress run
       uses: cypress-io/github-action@v2
       with:
-        build: npm run cypress:open
+        build: npm run cypress run
         # start: npm start
     # - run: npm run coisa
