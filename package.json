@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "sup",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "http-server": "^14.0.0"
+  },
   "devDependencies": {
     "cypress": "^8.7.0"
   },
   "scripts": {
+    "server": " http-server",
     "coisa": "./index.php",
     "cypress:open": "cypress open",
     "cypress": "cypress run"
