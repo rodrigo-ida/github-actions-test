@@ -8,7 +8,7 @@
     "cypress": "^8.7.0"
   },
   "scripts": {
-    "coisa": "index.php",
+    "coisa": "./index.php",
     "cypress:open": "cypress open",
     "cypress": "cypress run"
   },
