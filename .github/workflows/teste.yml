@@ -1,0 +1,14 @@
+name: teste
+
+on: push
+
+jobs:
+    primeiro-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: primeiro-passo
+              run: echo ola
+            - name: segundo passo
+              run: |
+                  node -v
+                  npm -v

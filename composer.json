@@ -1,0 +1,19 @@
+{
+    "name": "rodri/github-actions-cypress",
+    "description": "coisa",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Rodri\\GithubActionsCypress\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Ida",
+            "email": "rodrigoida1@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.0.*"
+    }
+}
