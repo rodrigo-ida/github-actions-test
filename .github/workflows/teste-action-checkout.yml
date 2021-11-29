@@ -1,0 +1,12 @@
+name: usando checkout actions
+
+on: push
+
+jobs:
+  executa-checkout-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: roda o checkout
+        uses: actions/checkout@v1
+      - name: lista arquivos
+        run: ls
